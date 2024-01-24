@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import IndiretaFilho from "./IndiretaFilho";
 
 
 
 
 const IndiretaPai: React.FC = () =>{
-    let nome = "";
-    let idade = 0;
-    let nerd = false;
+    
+    const [nome, setNome] = useState<string>("?");
+    const [idade, setIdade] = useState<number>(0);
+    const [nerd, setNerd] = useState<boolean>(false)
+    
     function fornecerInfo(nomeParam: string, idadeParam: number, nerdParam: boolean){
-        nome = nomeParam;
-        idade = idadeParam;
-        nerd = nerdParam;
+        setNome(nomeParam);
+        setIdade(idadeParam);
+        setNerd(nerdParam);
     }
 
     return(

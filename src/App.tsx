@@ -3,12 +3,17 @@ import Card from "./components/cardWrapper/Card"
 import UserInfo from "./components/condicional/userInfo"
 import DiretaPai from "./components/comunicacao/DiretaPai"
 import IndiretaPai from "./components/comunicacao/IndiretaPai"
+import { Input } from "./components/formlario/Input"
 
 function App() {
   
 
   return (
     <>
+    <Card title="Formularios e inputs controlados" color="#509df5">
+      <Input />
+    </Card>
+
     <Card title="Comunição Indireta" color="#d1fb39">
       <IndiretaPai />
     </Card>
