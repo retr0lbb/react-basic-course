@@ -3,13 +3,19 @@ import Card from "./components/cardWrapper/Card"
 import UserInfo from "./components/condicional/userInfo"
 import DiretaPai from "./components/comunicacao/DiretaPai"
 import IndiretaPai from "./components/comunicacao/IndiretaPai"
+
 import { Input } from "./components/formlario/Input"
+import Contador from "./components/contador/Contador"
 
 function App() {
   
 
   return (
     <>
+    <Card title="Contador componente classe" color="#4f27ec">
+      <Contador passo={0} numeroInicial={12}/>
+    </Card>
+
     <Card title="Formularios e inputs controlados" color="#509df5">
       <Input />
     </Card>
