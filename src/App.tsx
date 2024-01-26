@@ -6,12 +6,33 @@ import IndiretaPai from "./components/comunicacao/IndiretaPai"
 
 import { Input } from "./components/formlario/Input"
 import Contador from "./components/contador/Contador"
+import { MegaSena } from "./components/megaSena/MegaSena"
 
 function App() {
   
 
   return (
-    <>
+    <div style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      marginTop: "5rem"
+    }}>
+
+    <h1>Veja as mecanicas mais legais do react</h1>
+    
+    
+    <div style={{
+      display: "flex",
+      flexWrap: "wrap",
+      justifyContent: "center",
+      marginTop: "4rem"
+    }}>
+    <Card title="Gerador mega sena" color="#4f27ec">
+      <MegaSena />
+    </Card>
+
     <Card title="Contador componente classe" color="#4f27ec">
       <Contador passo={0} numeroInicial={12}/>
     </Card>
@@ -32,8 +53,8 @@ function App() {
       <ParOuImpar numero={11} />
       <UserInfo user={{name: ""}}/>
     </Card>
-    
-    </>
+    </div>
+    </div>
   )
 }
 

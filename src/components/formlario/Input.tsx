@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export const Input: React.FC = () =>{
 
-    const [valor, setValor] = useState<string>("Igor pires de ferraz")
+    const [valor, setValor] = useState<string>("Henrique Barbosa Sampaio")
     return(
         <div style={{
             display: "flex",
