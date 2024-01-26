@@ -28,3 +28,13 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+# Do que se trata esse repositório:
+
+Esse repositorio é o meu progresso no curso de react na udemy, esses primeiros componentes
+são componentes iniciais que não fazem uso da mecanica mais avançada do react como hooks, 
+providers e outros.
+
+Eu fiz como desafio fazer os componentes basicos em TypeScript para me treinar a usar mais frequentemente os tipos e tipar melhor as minhas variaveis ja aprendi varias coisas como o uso de uma interface para definir os props e alguns tipos exclusivos do react.
+
